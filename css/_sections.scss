@@ -1,0 +1,305 @@
+/* Home
+*
+-----------------------*/
+section.home-intro{
+    position: relative;
+    min-height: 100vh;
+
+    // .home-intro-carousel-1{
+    //     // background-image: url(../img/Background-1.png);
+    //     // background-size: cover;
+    //     // background-repeat: no-repeat;
+    //     // background-position: center;
+
+    //     // height: 100vh;
+    //     // width: 100%;
+
+    //     // img{
+    //     //     height: 100%;
+    //     //     width: 100%;
+    //     //     object-fit: cover;
+    //     // }
+    // }
+    // .home-intro-carousel-2{
+    //     // background-image: url(../img/Background-2.png);
+    //     // background-size: cover;
+    //     // background-repeat: no-repeat;
+    //     // background-position: center;
+
+    //     // height: 100vh;
+    //     // width: 100%;
+
+    //     // img{
+    //     //     height: 100%;
+    //     //     width: 100%;
+    //     //     object-fit: cover;
+    //     // }
+    // }
+    // .home-intro-carousel-3{
+    //     // background-image: url(../img/Background-1.png);
+    //     // background-size: cover;
+    //     // background-repeat: no-repeat;
+    //     // background-position: center;
+
+    //     // height: 100vh;
+    //     // width: 100%;
+
+    //     // img{
+    //     //     height: 100%;
+    //     //     width: 100%;
+    //     //     object-fit: cover;
+    //     // }
+    // }
+
+    .carousel-item{
+        height: 100vh;
+        @include media-breakpoint-down(md) {
+            height: 70vh;
+        }
+
+        width: 100%;
+
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .home-intro-bottom-text{
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        color: $gatsimed-green;
+
+        bottom: 5rem;
+        @include media-breakpoint-down(md) {
+            bottom: 0px;
+        }
+    }
+}
+
+section.home-experience{
+    .home-experience-bg{
+        background-image: url(https://res.cloudinary.com/iconicamx/image/upload/v1620951263/Gatsimed/torre-alto-flujo_ttq3no.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        min-height: 70vh;
+        width: 100%;
+    }
+
+    h2, h3, p{
+        hyphens: none;
+    }
+}
+
+section.home-accuracy{
+    .home-accuracy-bg{
+        background-image: url(https://res.cloudinary.com/iconicamx/image/upload/v1620951280/Gatsimed/microscopio-4_pukmar.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        min-height: 70vh;
+        width: 100%;
+
+        p.lead{
+            font-weight:700;
+        }
+    }
+}
+
+
+/* About
+*
+-----------------------*/
+section.about-intro{
+    background-image: url(https://res.cloudinary.com/iconicamx/image/upload/v1620953065/Gatsimed/gatsimed-nosotros_laem8h.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    // background-attachment: fixed;
+    // @include media-breakpoint-down(md) {
+    //     background-attachment: scroll;
+    // }
+
+    header{
+        background: #0C9D93;
+        color: white;
+        padding: 2rem 2rem 3rem 2rem;
+        width: 100%;
+        position: relative;
+
+        .about-intro-divider{
+            position: absolute;
+            bottom: 1.5rem;
+            left: 0px;
+            height: 1.5rem;
+            width: 30%;
+            background: $gatsimed-green;
+        }
+    }
+}
+
+
+section.about-mission-statement{
+    .col-md-5{
+        background: #F9F9F9;
+        min-height: 70vh;
+
+        div{
+            width: 100%;
+        }
+    }
+
+    h2{
+        font-size: 4rem;
+    }
+
+    h2:first-child{
+        // background: $gatsimed-light-blue;
+        width: 100%;
+    }
+
+    h2:nth-child(2){
+        // background: #4C7C96;
+        width: 100%;
+    }
+
+    p{
+        font-size: 2rem;
+
+        @include media-breakpoint-down(md) {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+
+section.about-values{
+    background: #0C9D93;
+    color: white;
+}
+
+
+section.about-testimonials{
+    .card{
+        border: solid 1px #D1DBE3;
+        padding: 1rem;
+
+        p.card-text, h5.card-title{
+            color: #9DAFBD;
+        }
+    }
+}
+
+
+/* Products & Services
+*
+-----------------------*/
+section.products-carousel{
+    hr{
+        background: #0C9D93;
+    }
+}
+
+
+section.services-intro{
+    .services-slide{
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+
+    .services-slide-1{
+        background-image: url(../img/Background-1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        height: 100vh;
+        width: 100%;
+
+        @include media-breakpoint-down(md) {
+            height: 70vh;
+        }
+    }
+    .services-slide-2{
+        background-image: url(../img/Background-2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        height: 100vh;
+        width: 100%;
+
+        @include media-breakpoint-down(md) {
+            height: 70vh;
+        }
+    }
+    .services-slide-3{
+        background-image: url(../img/Background-1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        height: 100vh;
+        width: 100%;
+
+        @include media-breakpoint-down(md) {
+            height: 70vh;
+        }
+    }
+
+    span.carousel-control-next-icon{
+        margin-top: 15rem;
+    }
+}
+
+
+section.services-description{
+    color: white;
+
+    .nav-link{
+        color: white;
+        opacity: 0.6;
+        background: $gatsimed-blue;
+        border-radius: 0.6rem;
+        @include transition(0.3s);
+
+        &:hover{
+            opacity: 0.75;
+            background: $gatsimed-blue;
+        }
+        
+        &.active{
+            background: $gatsimed-blue;
+            opacity: 1;
+        }
+    }
+}
+
+
+/* Contact
+*
+-----------------------*/
+section.contact-form{
+    a{
+        color: #9DAFBD;
+    }
+    ul li{
+        font-size: 1rem;
+    }
+}
+
+
+section.contact-map{
+    iframe{
+        height: 60vh;
+    }
+}

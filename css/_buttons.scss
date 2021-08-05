@@ -1,0 +1,60 @@
+/* Buttons
+*
+-----------------------*/
+.btn{
+    border-radius: 0rem;
+
+    &.not-allowed {
+        cursor: not-allowed;
+    }
+}
+// .btn-dydetec-outline{
+//     background-color: rgba(235,0,69,0);
+//     border-color: $dydetec-pink;
+//     color: $dydetec-pink;
+//     @include transition(0.3s);
+
+//     &:hover, &:focus, &.focus, &:active, &.active{
+//         color: white;
+//         background-color: rgba(235,0,69,1);
+//         border-color: $dydetec-pink;
+//         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+//     }
+// }
+.btn-gatsimed{
+    background-color: $gatsimed-dark-blue;
+    border-color: $gatsimed-dark-blue;
+    color: white;
+    @include transition(0.3s);
+
+    &:hover, &:focus, &.focus, &:active, &.active{
+        background-color: darken($gatsimed-dark-blue, 10%);
+        border-color: $gatsimed-dark-blue;
+        color: white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+    }
+}
+.btn-turquoise{
+    background-color: $gatsimed-turquoise;
+    border-color: $gatsimed-turquoise;
+    color: white;
+    @include transition(0.3s);
+
+    &:hover, &:focus, &.focus, &:active, &.active{
+        background-color: darken($gatsimed-turquoise, 10%);
+        border-color: $gatsimed-turquoise;
+        color: white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+    }
+}
+.btn-white-outline{
+    background-color: rgba(255,255,255,0);
+    border-color: white;
+    color: white;
+    @include transition(0.3s);
+    &:hover, &:focus, &.focus, &:active, &.active{
+        color: black;
+        background-color: rgba(255,255,255,1);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+    }
+}
