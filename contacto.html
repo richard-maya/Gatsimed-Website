@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="es-MX">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta name="bingbot" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="copyright" content="Copyright © 2021 Gätsimed">
 
+    <!-- FAVICONS
+    =================================== -->
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- GOOGLE ANALYTICS
+    =================================== -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA- 164814645-1"></script>
+    <script> window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+    gtag('config', 'UA-164814645-1'); </script>
+
+    <!-- META TAGS
+    =================================== -->
+    <title>GÄTSIMED | Contacto</title>
+    <meta name="description" content="GÄTSIMED | Contacto">
+	<meta name="keywords" content="gatsimed">
+    <meta itemprop="name" content="GÄTSIMED | Contacto">
+    <meta itemprop="url" content="https://gatsimed.com/contacto.html">
+    <meta itemprop="description" content="GÄTSIMED | Contacto">
+    <meta itemprop="image" content="https://gatsimed.com/ui/gatsimed-contacto.png">
+
+    <!-- OpenGraph -->
+    <meta property="og:title" content="GÄTSIMED | Contacto">
+    <meta property="og:site_name" content="Gätsimed">
+    <meta property="og:url" content="https://gatsimed.com/contacto.html">
+    <meta property="og:description" content="GÄTSIMED | Contacto">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://gatsimed.com/ui/gatsimed-contacto.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://gatsimed.com/contacto.html">
+    <meta name="twitter:title" content="GÄTSIMED | Contacto">
+    <meta name="twitter:description" content="GÄTSIMED | Contacto">
+    <meta name="twitter:image" content="https://gatsimed.com/ui/gatsimed-contacto.png">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/gatsimed.css">
 </head>
 <body>
@@ -13,7 +60,7 @@
 =================================== -->
 <nav class='navbar navbar-expand-lg navbar-light bg-light fixed-top'>
     <a class='navbar-brand' href='/'>
-        <img src='https://res.cloudinary.com/iconicamx/image/upload/c_scale,f_auto,h_100/v1616535727/Gatsimed/ui/gatsimed-logo_twjnnd.png' width='auto' height='50' alt='dydetec-navbar-logo' loading='lazy'>
+        <img src='ui/gatsimed-logo.png' width='auto' height='50' alt='gatsimed-navbar-logo' loading='lazy'>
     </a>
     <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
         <span class='navbar-toggler-icon'></span>
@@ -47,7 +94,7 @@
 <section class='my-5 py-5 contact-form'>
     <div class='container'>
         <div class="row">
-            <div class="col text-center mt-4">
+            <div class="col-12 col-md-8 mt-4 text-center">
                 <h1 class="dark-blue-text">CONTACTO</h1>
             </div>
         </div>
@@ -57,7 +104,7 @@
                 <p class="mb-4">Déjanos un mensaje con tus datos para ponernos en contacto.</p>
                 <!-- <iframe class="mb-5 mb-md-0" frameborder="0" style="height:600px;width:99%;border:none;" src='https://forms.iconica.mx/iconicastudio/form/GatsimedContactForm/formperma/xd-ndf6cTiVXOezDtacatO8FUaZfwfoTJLYII0R9RIA' loading="lazy"></iframe> -->
 
-                <div class="zf-templateWidth">
+                <div class="zf-templateWidth mb-5 mb-md-0">
                     <form
                         action='https://forms.zohopublic.com/iconicastudio/form/GatsimedContactForm/formperma/xd-ndf6cTiVXOezDtacatO8FUaZfwfoTJLYII0R9RIA/htmlRecords/submit'
                         name='form' method='POST' onSubmit='javascript:document.charset="UTF-8"; return zf_ValidateAndSubmit();'
@@ -118,7 +165,7 @@
                                                                 maxlength="20" checktype="c7" value="" phoneFormat="1"
                                                                 isCountryCodeEnabled=false fieldType="11"
                                                                 id="international_PhoneNumber_countrycode" valType="number"
-                                                                phoneFormatType="1" placeholder="Teléfono"/></span>
+                                                                phoneFormatType="1" required placeholder="Teléfono *"/></span>
                                                         <div class="zf-clearBoth"></div>
                                                     </div>
                                                     <p id="PhoneNumber_error" class="zf-errorMessage" style="display:none;">Número inválido.
@@ -162,6 +209,11 @@
                     <li class="mb-2"><span class='fa-li'><i class='fas fa-envelope fa-lg light-blue-text mr-2'></i></span> <a href="mailto:ventas@gatsimed.com">ventas@gatsimed.com</a></li>
                     <li><span class='fa-li'><i class='fas fa-envelope fa-lg light-blue-text mr-2'></i></span> <a href="mailto:m.mucino@gatsimed.com">m.mucino@gatsimed.com</a></li>
                 </ul>
+                <h4 class="dark-blue-text mt-5 pl-5">RENTAS</h4>
+                <ul class='fa-ul'>
+                    <li class="mb-2"><span class='fa-li'><i class='fas fa-mobile-alt fa-lg light-blue-text mr-2'></i></span> <a href="tel:5548884508">Cel. +52 55 4888 4508</a></li>
+                    <li class="mb-2"><span class='fa-li'><i class='fas fa-envelope fa-lg light-blue-text mr-2'></i></span> <a href="mailto:d.monroy.beltran@gatsimed.com">d.monroy.beltran@gatsimed.com</a></li>
+                </ul>
                 <h4 class="dark-blue-text mt-5 pl-5">DIRECCIÓN</h4>
                 <ul class='fa-ul'>
                     <li><span class='fa-li'><i class='fas fa-map-marker-alt fa-lg light-blue-text mr-2'></i></span> <a href="https://goo.gl/maps/fvcJZiVDbcGSMed86" target="_blank">María Ortega Monroy 1 bis. B,<br>Col. San Pedro Tultepec, Lerma.<br>CP 52030, Estado de México.</a></li>
@@ -195,19 +247,19 @@
                 <nav>
                     <ul class="list-inline list-inline-bordered">
                         <li class="list-inline-item pr-3">
-                            <a href="">INICIO</a>
+                            <a href="index.html">INICIO</a>
                         </li>
                         <li class="list-inline-item pr-3">
-                            <a href="">NOSOTROS</a>
+                            <a href="nosotros.html">NOSOTROS</a>
                         </li>
                         <li class="list-inline-item pr-3">
-                            <a href="">PRODUCTOS</a>
+                            <a href="productos.html">PRODUCTOS</a>
                         </li>
                         <li class="list-inline-item pr-3">
-                            <a href="">SERVICIOS</a>
+                            <a href="servicios.html">SERVICIOS</a>
                         </li>
                         <li class="list-inline-item pr-3">
-                            <a href="">CONTACTO</a>
+                            <a href="contacto.html">CONTACTO</a>
                         </li>
                     </ul>
                 </nav>
@@ -252,8 +304,8 @@
                                 <li class="list-inline-item pr-3">
                                     <a href=""><small>Aviso de Privacidad</small></a>
                                 </li>
-                                <li class="list-inline-item">
-                                    <a href=""><small>Términos y Condiciones</small></a>
+                                <li class="list-inline-item d-none">
+                                    <a href="https://iconica.mx" rel="author" title="diseño-sitio-web-iconica-studio">Diseño de sitio web por Iconica Studio.</a>
                                 </li>
                             </ul>
                         </nav>

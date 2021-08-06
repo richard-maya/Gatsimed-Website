@@ -77,11 +77,17 @@ section.home-intro{
             bottom: 0px;
         }
     }
+
+    @include media-breakpoint-down(md) {
+        h1{
+            font-size: 2.5rem;
+        }
+    }
 }
 
 section.home-experience{
     .home-experience-bg{
-        background-image: url(https://res.cloudinary.com/iconicamx/image/upload/v1620951263/Gatsimed/torre-alto-flujo_ttq3no.png);
+        background-image: url('../img/imagen4.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -97,7 +103,7 @@ section.home-experience{
 
 section.home-accuracy{
     .home-accuracy-bg{
-        background-image: url(https://res.cloudinary.com/iconicamx/image/upload/v1620951280/Gatsimed/microscopio-4_pukmar.png);
+        background-image: url('../img/imagen8.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -116,14 +122,19 @@ section.home-accuracy{
 *
 -----------------------*/
 section.about-intro{
-    background-image: url(https://res.cloudinary.com/iconicamx/image/upload/v1620953065/Gatsimed/gatsimed-nosotros_laem8h.jpg);
-    background-size: cover;
+    background-image: url('../img/about/imagen9.jpg');
+    background-size: 70% auto;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left center;
     // background-attachment: fixed;
     // @include media-breakpoint-down(md) {
     //     background-attachment: scroll;
     // }
+
+    @include media-breakpoint-down(md) {
+        background-size: cover;
+        background-position: center;
+    }
 
     header{
         background: #0C9D93;
@@ -203,6 +214,12 @@ section.products-carousel{
     hr{
         background: #0C9D93;
     }
+
+    p{
+        a{
+            color: $gatsimed-green;
+        }
+    }
 }
 
 
@@ -217,7 +234,7 @@ section.services-intro{
     }
 
     .services-slide-1{
-        background-image: url(../img/Background-1.png);
+        background-image: url('../img/services/imagen13.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;

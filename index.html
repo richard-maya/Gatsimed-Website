@@ -1,10 +1,58 @@
 <!DOCTYPE html>
 <html lang="es-MX">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="robots" content="index, follow">
+    <meta name="bingbot" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="copyright" content="Copyright © 2021 Gätsimed">
 
+    <!-- FAVICONS
+    =================================== -->
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- GOOGLE ANALYTICS
+    =================================== -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA- 164814645-1"></script>
+    <script> window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+    gtag('config', 'UA-164814645-1'); </script>
+
+    <!-- META TAGS
+    =================================== -->
+    <title>GÄTSIMED | Estamos contigo en cada suspiro</title>
+    <meta name="description" content="En GÄTSIMED contamos con personal de ventas presente en todas las grandes ciudades de la República Mexicana.">
+	<meta name="keywords" content="gatsimed">
+    <meta itemprop="name" content="GÄTSIMED | Estamos contigo en cada suspiro">
+    <meta itemprop="url" content="https://gatsimed.com">
+    <meta itemprop="description" content="En GÄTSIMED contamos con personal de ventas presente en todas las grandes ciudades de la República Mexicana.">
+    <meta itemprop="image" content="ui/gatsimed-home.png">
+
+    <!-- OpenGraph -->
+    <meta property="og:title" content="GÄTSIMED | Estamos contigo en cada suspiro">
+    <meta property="og:site_name" content="Gätsimed">
+    <meta property="og:url" content="https://gatsimed.com">
+    <meta property="og:description" content="En GÄTSIMED contamos con personal de ventas presente en todas las grandes ciudades de la República Mexicana.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="ui/gatsimed-home.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://gatsimed.com">
+    <meta name="twitter:title" content="GÄTSIMED | Estamos contigo en cada suspiro">
+    <meta name="twitter:description" content="En GÄTSIMED contamos con personal de ventas presente en todas las grandes ciudades de la República Mexicana.">
+    <meta name="twitter:image" content="ui/gatsimed-home.png">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/gatsimed.css">
 </head>
 <body>
@@ -12,7 +60,7 @@
 =================================== -->
 <nav class='navbar navbar-expand-lg navbar-light bg-light fixed-top'>
     <a class='navbar-brand' href='/'>
-        <img src='ui/gatsimed-logo.png' width='auto' height='50' alt='dydetec-navbar-logo' loading='lazy'>
+        <img src='ui/gatsimed-logo.png' width='auto' height='50' alt='gatsimed-navbar-logo' loading='lazy'>
     </a>
     <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
         <span class='navbar-toggler-icon'></span>
@@ -47,7 +95,7 @@
         <div class="row px-0">
             <div class="col-12 col-md-6 d-flex align-items-center">
                 <header class="pl-md-5 mb-5 mb-md-0">
-                    <h1 class="mb-5 mt-5 mt-md-0 pt-5 pt-md-0">Estamos contigo,<br>en cada suspiro</h1>
+                    <h1 class="mb-5 mt-5 mt-md-0 pt-5 pt-md-0 green-text">Estamos contigo,<br>en cada suspiro</h1>
                     <a href="productos.html" class="btn btn-gatsimed btn-lg px-4">CONOCE MÁS</a>
                 </header>
             </div>
@@ -56,15 +104,15 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <!-- <div class="home-intro-carousel-1"></div> -->
-                            <img src="https://res.cloudinary.com/iconicamx/image/upload/v1620951270/Gatsimed/montaje-icu2_sxozkb.webp" alt="gatsimed" class="img-fluid w-100">
+                            <img src="img/imagen1.jpg" alt="gatsimed" class="img-fluid w-100">
                         </div>
                         <div class="carousel-item">
                             <!-- <div class="home-intro-carousel-2"></div> -->
-                            <img src="https://res.cloudinary.com/iconicamx/image/upload/c_fill,g_west,h_1080,w_800/v1620951261/Gatsimed/torre-1_agh1uc.webp" alt="gatsimed" class="img-fluid w-100">
+                            <img src="img/imagen2.jpg" alt="gatsimed" class="img-fluid w-100">
                         </div>
                         <div class="carousel-item">
                             <!-- <div class="home-intro-carousel-3"></div> -->
-                            <img src="https://res.cloudinary.com/iconicamx/image/upload/v1620953082/Gatsimed/tarjeta-3_q8wfdg.webp" alt="gatsimed" class="img-fluid w-100">
+                            <img src="img/imagen3.jpg" alt="gatsimed" class="img-fluid w-100">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -107,13 +155,14 @@
 <section class='home-experience'>
     <div class='container-fluid'>
         <div class='row px-0 d-flex align-items-center'>
-            <div class="col-12 col-md-6 col-lg-5 home-experience-bg"></div>
-            <div class='col-12 col-md-6 col-lg-7 px-4 px-md-5 pt-4 pt-md-0 text-justify'>
-                <h3 class="light-blue-text pr-0 pr-md-5">Manufacturamos y distribuimos equipo médico</h3>
-                <h2 class="dark-blue-text pr-0 pr-md-5">DENTRO DEL MERCADO NACIONAL</h2>
+            <div class="col-12 col-md-6 order-1 order-md-0 col-lg-5 home-experience-bg"></div>
+            <div class='col-12 col-md-6 order-0 order-md-1 col-lg-7 mb-4 mb-md-0 px-4 px-md-5 pt-4 pt-md-0 text-justify'>
+                <h3 class="light-blue-text pr-0 pr-md-5">Manufacturamos y distribuimos equipo de ventilación</h3>
+                <h2 class="dark-blue-text pr-0 pr-md-5">Con entregas en todo el país</h2>
                 <hr class="my-5 pr-0 pr-md-5">
-                <p class="pr-0 pr-md-5">En GÄTSIMED somos expertos en la manufactura de equipo médico. Contamos con conocimientos de ventilación mecánica para la fabricación de equipo de soporte de vida Clase III.</p>
-                <p class="pr-0 pr-md-5">Nuestra experiencia en el mercado nos ayuda a brindar un servicio de calidad, aplicando buenas prácticas de fabricación eficientes para cada proceso en la manufactura, la distribución y la certificación de los productos a nivel nacional.</p>
+                <p class="pr-0 pr-md-5">En GÄTSIMED contamos con personal de ventas presente en todas las grandes ciudades de la República Mexicana.</p>
+                <p class="pr-0 pr-md-5">Nuestros equipos cuentan con tecnología de vanguardia. Con más de 500 ventiladores GÄTSI® instalados en todo México y otras partes del mundo, somos el primer distribuidor de equipo de ventilación mecánica 100% mexicano.</p>
+                <p class="pr-0 pr-md-5">Si te interesa comprar equipos de ventilación GÄTSI@, contacta a nuestros asesores de venta o llama a nuestra línea, que está disponible 24/7.</p>
             </div>
         </div>
     </div>
@@ -125,19 +174,26 @@
 <section class="home-cta py-5 dark-blue-bg">
     <div class="row justify-content-center mt-5">
         <div class="col-12 col-md-6 text-center">
-            <h3 class="white-text">¿Necesitas maquilar equipo médico?</h3>
-            <h3 class="white-text">GÄTSIMED es tu aliado en la producción y distribución</h3>
+            <h3 class="white-text mb-4">¿Necesitas un equipo de ventilación mecánica pero no deseas comprarlo?</h3>
+            <h5 class="white-text">Contamos con planes de renta de equipo médico adecuado a tus necesidades:</h5>
         </div>
     </div>
-    <div class="row row-cols-1 row-cols-md-3 my-5">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 my-5">
         <div class="col text-center">
-            <img src="img/Shape-1.png" alt="" class="img-fluid" loading="lazy">
+            <img src="img/Shape-2.png" alt="" class="img-fluid w-50 mb-3" loading="lazy">
+            <p class="lead white-text mb-5">Por evento</p>
         </div>
         <div class="col text-center">
-            <img src="img/Shape-2.png" alt="" class="img-fluid" loading="lazy">
+            <img src="img/Shape-2.png" alt="" class="img-fluid w-50 mb-3" loading="lazy">
+            <p class="lead white-text mb-5">Por contrato</p>
         </div>
         <div class="col text-center">
-            <img src="img/Shape-3.png" alt="" class="img-fluid" loading="lazy">
+            <img src="img/Shape-3.png" alt="" class="img-fluid w-50 mb-3" loading="lazy">
+            <p class="lead white-text mb-5">Por consignación</p>
+        </div>
+        <div class="col text-center">
+            <img src="img/Shape-3.png" alt="" class="img-fluid w-50 mb-3" loading="lazy">
+            <p class="lead white-text mb-5">Por leasing</p>
         </div>
     </div>
 </section>
@@ -147,22 +203,22 @@
 =================================== -->
 <section class="home-description my-5 py-5">
     <div class="container">
-        <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center mb-5">
+        <div class="row row-cols-1 row-cols-md-2 d-flex align-items-center mb-4 mb-md-5">
             <div class="col">
-                <p>Fabricamos equipo médico a pequeña y mediana escala basándonos en altos estándares de calidad y seguridad, bajo las normativas de los ISO 9001 y 13485.</p>
-                <p>Además, contamos con servicio de mantenimiento preventivo y correctivo por ingenieros biomédicos experimentados. Quienes pueden dar atención y soluciones vía remota y en locación.</p>
+                <p>Además, contamos con servicio de mantenimiento preventivo y correctivo por ingenieros biomédicos experimentados. Quienes pueden dar atención vía remota y en locación.</p>
+                <p>Al comprar o rentar un equipo GÄTSI®, nuestro equipo de biomédicos brinda capacitaciones en sitio sobre el funcionamiento, para que el personal de salud asignado lo maneje sin complicaciones.</p>
             </div>
             <div class="col">
-                <img src="https://res.cloudinary.com/iconicamx/image/upload/c_fill,g_center,h_580,w_800/v1620951261/Gatsimed/gatsi_a1aflc.webp" alt="" class="w-100 img-fluid" loading="lazy">
+                <img src="img/imagen5.jpg" alt="gatsimed" class="w-100 img-fluid" loading="lazy">
             </div>
         </div>
 
         <div class="row row-cols-1 row-cols-md-2">
             <div class="col">
-                <img src="https://res.cloudinary.com/iconicamx/image/upload/c_fill,g_center,h_580,w_800/v1620951274/Gatsimed/vent07_r6nnhj.webp" alt="" class="w-100 img-fluid" loading="lazy">
+                <img src="img/imagen6.jpg" alt="gatsimed" class="w-100 img-fluid mb-4 mb-md-0" loading="lazy">
             </div>
             <div class="col">
-                <img src="https://res.cloudinary.com/iconicamx/image/upload/c_fill,g_center,h_580,w_800/v1620951268/Gatsimed/img-home_cbdomw.webp" alt="" class="w-100 img-fluid" loading="lazy">
+                <img src="img/imagen7.jpg" alt="gatsimed" class="w-100 img-fluid" loading="lazy">
             </div>
         </div>
     </div>
@@ -177,7 +233,8 @@
             <div class='col-12 col-md-6 col-lg-7 px-4 px-md-5'>
                 <h2 class="dark-blue-text pr-5 pt-5 pt-md-0">PRECISIÓN & CALIDAD</h2>
                 <hr class="my-5 pr-0 pr-md-5">
-                <p class="pr-0 pr-md-5 lead">Con las herramientas adecuadas para cada proceso, nuestro trabajo se caracteriza por el control de calidad y la revisión que damos a las piezas, los maquinados y los equipos médicos que fabricamos.</p>
+                <p class="pr-0 pr-md-5 lead">Los equipos que fabricamos están producidos bajo altos estándares de calidad, basados en las normativas de los ISO 9001 y 13485.</p>
+                <p class="pr-0 pr-md-5 lead">Son diseñados con interfaces de usuario seguras y fáciles de interpretar ppor el operador del equipo. Su rendimiento eficiente hace a nuestros equipos competentes en el mercado internacional.</p>
             </div>
             <div class="col-12 col-md-6 col-lg-5 home-accuracy-bg"></div>
         </div>
@@ -256,7 +313,7 @@
                                                                         maxlength="20" checktype="c7" value="" phoneFormat="1"
                                                                         isCountryCodeEnabled=false fieldType="11"
                                                                         id="international_PhoneNumber_countrycode" valType="number"
-                                                                        phoneFormatType="1" placeholder="Teléfono" class="form-control"/></span>
+                                                                        phoneFormatType="1" placeholder="Teléfono *" required class="form-control"/></span>
                                                                 <div class="zf-clearBoth"></div>
                                                             </div>
                                                             <p id="PhoneNumber_error" class="zf-errorMessage" style="display:none;">Número inválido.
@@ -361,9 +418,9 @@
                                 <li class="list-inline-item pr-3">
                                     <a href=""><small>Aviso de Privacidad</small></a>
                                 </li>
-                                <!-- <li class="list-inline-item">
-                                    <a href=""><small>Términos y Condiciones</small></a>
-                                </li> -->
+                                <li class="list-inline-item d-none">
+                                    <a href="https://iconica.mx" rel="author" title="diseño-sitio-web-iconica-studio">Diseño de sitio web por Iconica Studio.</a>
+                                </li>
                             </ul>
                         </nav>
                     </div>
